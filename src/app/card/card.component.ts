@@ -14,7 +14,7 @@ export class CardComponent implements OnInit {
   }
   upvote(){
     this.card.votes++;
-}
+  }
   downvote(){
     this.card.votes--;
   }
