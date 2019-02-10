@@ -1,0 +1,21 @@
+<!----<p>
+    {{card.name}} 
+</p> -->
+<div class ="d-flex flex-row mt-3">
+  <p class = "p-3 align-self-center box">{{card.votes}}</p>
+  <div>
+    <div class = "media">
+      <div class = "media-body">
+        <h5 class = "mt-5">{{card.name}}</h5>
+      </div>
+      <div>
+        <a href="#"><i class = "fas fa-arrow-up"(click)="upvote()">upvoteKOK</i></a>&nbsp;
+      </div>
+      &nbsp;&nbsp;&nbsp;
+      <div>
+        <a href="#"><i class = "fas fa-arrow-down"(click)="downvote()">downvoteKOK</i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
